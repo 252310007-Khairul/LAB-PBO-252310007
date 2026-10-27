@@ -19,7 +19,7 @@ class Resto {
             int pilihan = input.nextInt();
 
             long hargaMenu = getPrices(pilihan);
-S
+
             switch (pilihan) {
                 case 1:
                     System.out.println("Anda memesan Nasi Goreng dengan harga Rp " + hargaMenu + ",-");
